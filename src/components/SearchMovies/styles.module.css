@@ -4,6 +4,7 @@
 
 .label {
     font-size: 1.2rem;
+    margin-left: 16px;
     margin-bottom: 0.2rem;
     text-transform: uppercase;
 }
@@ -38,6 +39,7 @@
 .result{
     color: red;
     font-weight: bold;
+    margin-left: 16px;
 }
 @media (min-width:786px){
     .form {
@@ -45,8 +47,13 @@
         grid-gap: 1rem;
         align-items: center;
     }
-    
+    .label{
+        margin-left: 0;
+    }
     .query {
         margin-bottom: 0;
+    }
+    .result{
+        margin-left: 0;
     }
 }
